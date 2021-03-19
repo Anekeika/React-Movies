@@ -5,7 +5,6 @@ export class Search extends React.Component {
         search: "",
     }
 
-    //handleKey = async (event) => event.key === 'Enter' && await this.props.updMovies(event.target.value)
 
     handleKey = (event) => {
         if (event.key === "Enter") {

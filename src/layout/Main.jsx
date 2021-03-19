@@ -54,9 +54,7 @@ class Main extends React.Component {
 
         await this.showMovies();
         this.setState({loading: false})
-            // .catch((err) => {
-            //     console.log(err)
-            // })
+
     }
 
     updMovies = async (title) => {
